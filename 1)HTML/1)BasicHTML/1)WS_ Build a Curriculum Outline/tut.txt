@@ -1,0 +1,8 @@
+== Headings
+An intro to headings
+<h1>... <h6>
+A page can have a single <h1> element.
+A sub-heading element creates a new section.
+
+== Paragraphs <p></p>
+<p> element is used to write paragraph.
