@@ -1,0 +1,44 @@
+== Attribute:
+An attribute is a value placed inside the opening tag of an HTML element. Attributes provide additional information about the element, and specify how the element should behave.
+
+<element attribute="value">Content...</element>
+<a href="..." taret="_blank"></a>
+'a' is the link element, but without 'href' the link would not work, because there is no destination URL.
+target="_blank" enables the link to open in a new browser tab.
+
+<img src="..." alt="..." />
+Like 'href' for 'a', 'src' is required for 'img' element, because it specifies the image to be displayed. 'alt' is not necessary but recommended for accessibility purposes.
+
+== Accessibility:
+Accessibility means making sure that everyone, including those with disabilities, can use and understand things like websites, apps, physical spaces.
+
+== Input elements:
+Input elements are used to collect data from users, and 'type' attribute specifies the type of input.
+
+<input type="checkbox" checked />
+The 'checked' attribute specifies that the checkbox should be checked by default. It does not required a value. It is known as 'boolean attribute'.
+
+== Boolean Attributes:
+These attributes contains no value, and are used to specify the state of an element, such as whether it is disabled, read-only, or required.
+<input type="disabled" />
+Some examples of these attribute are 'disabled', 'readonly', 'required', etc..
+
+== Questions:
+
+1_ Which of the following is an example of a boolean attribute?
+_ src
+_ href
+_ disabled (correct)
+_ alt 
+
+2_ What is the role of an attribute in HTML?
+_ Attributes provide additional information and help define the behavior for HTML elements. (correct)
+_ Attributes change the background color of an element.
+_ Attributes change the font size of an element.
+_ Attributes add JavaScript functionality to an element.
+
+3_ Which of the following is the correct syntax for a boolean attribute?
+_ <input type="checkbox" checked> (correct)
+_ <input type="checkbox" checked="on">
+_ <input type="checkbox" checked="off">
+_ <input type="checkbox" checked="isChecked"?

@@ -7,7 +7,7 @@ Each HTML tag is surrounded by a left angle bracket(<) and a right angle bracket
 The content is written between opening and closing tags.
 <p>lorem ipsum...</p>
 
-== Void elements: <img>
+== Void elements: <img> (no closing tag, no content, no nested elements)
 Some element don't have any content and closing tag. They just hav e closing tag.
 <img>
 It don't have any content or nested elements.
@@ -17,3 +17,13 @@ sometime void elements use a '/' before '>'. Many code formatters like Prettier 
 <img />
 The HTML spec states that the presence of the '/' does not mark the start tag as self-closing, but instead is unnecessary and has no effect of any kind
 = Conclusion: Adding '/' to void elements gives no benefit, and caliing void elements as self-closing tags is informal.
+
+== Attributes:
+The 'src' attribute is use to specify the location/source of image.
+Adding 'alt' in image is also a good practice. It is used to provide short, descriptive text for the image.
+If the image break due to wrong location in 'src', the text written in 'alt' will be shown.
+
+== HTML vs CSS vs JS
+HTML: for content and structure
+CSS: for styling
+JS: for interactivity
