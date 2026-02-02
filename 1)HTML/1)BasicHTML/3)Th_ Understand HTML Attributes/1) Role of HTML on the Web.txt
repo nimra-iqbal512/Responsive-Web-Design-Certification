@@ -27,3 +27,24 @@ If the image break due to wrong location in 'src', the text written in 'alt' wil
 HTML: for content and structure
 CSS: for styling
 JS: for interactivity
+
+
+== Questions:
+
+1_ What does HTML stand for?
+_ HyperText Maker Language
+_ HyperText Marker Language
+_ HyperText Markdown Language
+_ HyperText Markup Language (correct)
+
+2_ Which of the following is the correct syntax for a closing tag?
+_ <;p>
+_ <p>
+_ </p> (correct)
+_ <///p/>
+
+3_ Which of the following is a valid attribute used inside the img element?
+_ src (correct)
+_ bold
+_ closing
+_ div
