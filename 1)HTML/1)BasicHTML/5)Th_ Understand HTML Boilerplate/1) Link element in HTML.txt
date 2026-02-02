@@ -1,0 +1,8 @@
+== link element
+The 'link' element is used to link external resources such as stylesheets or site icons.
+
+Below is the common syntax to link externl CSS with html.
+<link rel="stylesheet" href="./style.css" />
+The 'rel' attribute is used to determine the relationship between the linked resource and the stylesheet. In this case, it is 'stylesheet'.
+The 'href' specifies the location of linked resource.
+The './' tells the computer to look for the linked resource in the current folder or directory.
